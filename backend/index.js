@@ -29,7 +29,7 @@ app.use(cookieParser());
 // Enable CORS with credentials
 
 const corsOptions = {
-  origin: 'http://localhost:3000', // your frontend URL
+  origin: 'https://tweetnest-tgb4.onrender.com', // your frontend URL
   credentials: true // Allow cookies and credentials
 }
 app.use(cors(corsOptions)); 
